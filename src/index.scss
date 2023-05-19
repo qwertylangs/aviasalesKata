@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+
+:root {
+  font-family: "Open Sans", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  font-family: "Open Sans", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #f3f7fa;
+}
+
+.ant-checkbox-wrapper {
+  padding: 8px 20px;
+  width: 100%;
+  transition: 0.5s background;
+}
+
+.ant-checkbox-wrapper:hover {
+  background: #f1fcff;
+  user-select: none;
+}
+
+.btnLoadMore {
+  border-radius: 7px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  &:hover {
+    font-size: 11px;
+  }
+}

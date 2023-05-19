@@ -1,0 +1,15 @@
+.switch {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  .button {
+    &:first-child {
+      border-right: none;
+      border-radius: 7px 0 0 7px;
+    }
+    &:nth-child(3) {
+      border-left: none;
+      border-radius: 0 7px 7px 0;
+    }
+  }
+}
